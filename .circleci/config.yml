@@ -78,6 +78,9 @@ jobs:
           command: |
             ./standalone/swiftgen --version
             ./standalone/swiftgen templates list
+      - run:
+          name: Build with SPM
+          command: swift build
       - store_test_results:
           path: /tmp/circleci-test-results
       - *fetch-xcode-logs
