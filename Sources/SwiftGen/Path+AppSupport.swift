@@ -6,8 +6,8 @@
 //  Copyright © 2017 AliSoftware. All rights reserved.
 //
 
-import PathKit
 import Foundation
+import PathKit
 
 extension Path {
   static let applicationSupport: Path = {

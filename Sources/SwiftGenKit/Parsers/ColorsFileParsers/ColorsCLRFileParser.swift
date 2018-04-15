@@ -4,9 +4,9 @@
 // MIT Licence
 //
 
+import AppKit
 import Foundation
 import PathKit
-import AppKit
 
 final class ColorsCLRFileParser: ColorsFileTypeParser {
   static let extensions = ["clr"]

@@ -5,11 +5,11 @@
 //
 
 import Commander
+import Foundation
 import PathKit
 import Stencil
 import StencilSwiftKit
 import SwiftGenKit
-import Foundation
 
 // MARK: Common
 
