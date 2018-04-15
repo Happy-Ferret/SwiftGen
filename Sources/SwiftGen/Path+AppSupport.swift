@@ -7,6 +7,7 @@
 //
 
 import PathKit
+import Foundation
 
 extension Path {
   static let applicationSupport: Path = {

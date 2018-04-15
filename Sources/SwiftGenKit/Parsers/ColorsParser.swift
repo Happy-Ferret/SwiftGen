@@ -6,6 +6,7 @@
 
 import Foundation
 import PathKit
+import AppKit
 
 public enum ColorsParserError: Error, CustomStringConvertible {
   case invalidHexColor(path: Path, string: String, key: String?)
